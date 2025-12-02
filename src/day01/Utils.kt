@@ -10,6 +10,8 @@ import kotlin.io.path.readText
  */
 fun readInput(name: String) = Path("src/$name.txt").readText().trim().lines()
 
+fun readInputAsLine(name: String) = Path("src/$name.txt").readText().trim()
+
 /**
  * Converts string to day01.md5 hash.
  */
